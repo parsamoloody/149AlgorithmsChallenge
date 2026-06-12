@@ -6,7 +6,7 @@ Given a string, replace each its character by the next one in the English alphab
 
 For inputString = "crazy", the output should be
 alphabeticShift(inputString) = "dsb{z".
-
+ 
 **Hints**
 
 -   split()
