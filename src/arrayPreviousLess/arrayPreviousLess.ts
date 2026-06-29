@@ -1,14 +1,13 @@
 export function arrayPreviousLess(items: number[]): number[] {
-    let lastSmallestes = [-1]
+    let result = [-1]
+
     for (let i = 1; i < items.length; i++) {
         const smallest = Math.max(...items.slice(i - 1, i));
-        if (items[i] <= smallest) {
-            lastSmallestes.push(-1)
-        } else {
-            lastSmallestes.push(smallest)
-        }
+        if (smallest > items[i]) { result.push(-1) }
+        else { result.push(smallest) }
     }
-    return lastSmallestes
+
+    return result;
 }
 
 console.log(arrayPreviousLess([3, 5, 2, 4, 5]));
