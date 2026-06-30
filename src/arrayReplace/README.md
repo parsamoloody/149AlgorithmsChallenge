@@ -30,4 +30,4 @@ arrayReplace(inputArray, elemToReplace, substitutionElem) = [3, 2, 3].
 
 0 ≤ substitutionElem ≤ 10.
 
-**[output] array.integer**
+**[output] array.integer** 
