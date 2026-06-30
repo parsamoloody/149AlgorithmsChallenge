@@ -2,4 +2,4 @@ export function arrayReplace(inputArray: number[], elemToReplace: number, substi
     return inputArray.map(num => num === elemToReplace ? substitutionElem : num);
 }
 
-// console.log(arrayReplace([1, 2, 1], 1, 3));
+console.log(arrayReplace([1, 2, 1], 1, 3));
