@@ -1,11 +1,12 @@
 
 ---
-Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
+Given a list of numbers, find every occurrence of a specific number (elemToReplace) and change it to a new number (substitutionElem). All other numbers should stay the same.
 
 **Example**
 
-For inputArray = [1, 2, 1], elemToReplace = 1 and substitutionElem = 3, the output should be
-arrayReplace(inputArray, elemToReplace, substitutionElem) = [3, 2, 3].
+Input: [1, 2, 1], elemToReplace = 1, substitutionElem = 3
+Process: Replace every 1 with 3
+Output: [3, 2, 3]
  
 **Input/Output**
 
